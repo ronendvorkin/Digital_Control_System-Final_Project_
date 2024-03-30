@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../4_frequency_counter.ip_user_files/bd/system/ip/system_util_ds_buf_1_0/util_ds_buf.vhd" \
+"../../../../4_frequency_counter.ip_user_files/bd/system/ip/system_util_ds_buf_1_0/sim/system_util_ds_buf_1_0.vhd" \
+"../../../../4_frequency_counter.ip_user_files/bd/system/ip/system_util_ds_buf_2_0/sim/system_util_ds_buf_2_0.vhd" \
+"../../../../4_frequency_counter.ip_user_files/bd/system/ip/system_dds_compiler_0_0/sim/system_dds_compiler_0_0.vhd" \
+"../../../../4_frequency_counter.ip_user_files/bd/system/ip/system_rst_ps7_0_125M_0/sim/system_rst_ps7_0_125M_0.vhd" \
+"../../../../4_frequency_counter.ip_user_files/bd/system/ip/system_axi_bram_ctrl_0_0/sim/system_axi_bram_ctrl_0_0.vhd" \
+"../../../../4_frequency_counter.ip_user_files/bd/system/ip/system_smartconnect_0_0/bd_0/ip/ip_1/sim/bd_919a_psr_aclk_0.vhd" \
+"../../../../4_frequency_counter.ip_user_files/bd/system/ip/system_axi_bram_ctrl_1_0/sim/system_axi_bram_ctrl_1_0.vhd" \
+
+# Do not sort compile order
+nosort
